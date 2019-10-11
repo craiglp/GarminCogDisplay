@@ -20,6 +20,7 @@
 		<string id="cog9">Pignon 9</string>
 		<string id="cog10">Pignon 10 (0 pour les cassettes 9 vit.)</string>
 		<string id="cog11">Pignon 11 (0 pour les cassettes 9 et 10 vit.)</string>
+		<string id="cog12">Pignon 12 (0 pour les cassettes 9, 10, 11 vit.)</string>
 		<string id="wheelCircumference">Circonference de la roue en mm (A chercher sur Google en fonction du modele de pneu)</string>
 	</strings>
 </resources>

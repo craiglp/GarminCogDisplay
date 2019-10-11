@@ -19,7 +19,8 @@ class CogDisplayView extends Ui.DataField {
 						Application.getApp().getProperty("cog8"), 
 						Application.getApp().getProperty("cog9"), 
 						Application.getApp().getProperty("cog10"), 
-						Application.getApp().getProperty("cog11")];
+						Application.getApp().getProperty("cog11"),
+						Application.getApp().getProperty("cog12")];
 	
 	
 						
@@ -32,12 +33,12 @@ class CogDisplayView extends Ui.DataField {
     hidden var printCog;
 
     function initialize() {
-    	// Create an array of [nChainRings, 11]
+    	// Create an array of [nChainRings, 12]
     	for (var i = 0; i<nChainRings; i++){
-    		ringRatios[i] = new [11];
+    		ringRatios[i] = new [12];
 		}
 	    for (var i = 0; i<nChainRings; i++){
-	    	for (var j = 0; j<11; j++){
+	    	for (var j = 0; j<12; j++){
 				self.ringRatios[i][j] = 1.0*self.cogs[j]/self.chainRings[i];
 	    	}
     	}
